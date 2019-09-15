@@ -1,459 +1,530 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Case Study | Breadbox</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aleo&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
 
 <!-- Header -->
-    <header>
-        <img src="images/PersonalLogo.png" alt="A yellow bicycle above the name Ellie Deshaies">
-        <nav>
-          <a href="index.html">Work</a>
-          <a href="about.html">About</a>
-        </nav>
-    </header>
+      <header>
+          <a href="index.html"><img src="images/PersonalLogo.png" alt="A yellow bicycle above the name Ellie Deshaies" class="personalLogo"></a>
+          <nav>
+            <a class="navLink" href="index.html#work">Work</a>
+            <a class="navLink" href="about.html">About</a>
+          </nav>
+      </header>
 
-<!-- Project Summary -->
-    <h1>Breadbox</h1>
-    <h2 class="projDescription">Collaborative, cloud-based recipe management and meal planning</h2>
-    <img src="images/LaptopMobileMockup.png" alt="A preview of the design displayed on a laptop and mobile phone">
-    <button type="button" onclick="window.open('https://www.figma.com/proto/4k3GjE8IKSxhTtpBVrPkyL/Breadbox-HiFi-Mockups-V2?node-id=606%3A8&viewport=49%2C210%2C0.03250528499484062&scaling=min-zoom')">View prototype</button>
-    <h2>Summary</h2>
-    <p>
-      Breadbox is a cloud storage application that helps users organize their personal recipe collections and store them in a single, safe digital environment. With Breadbox, users can save recipes from multiple sources, share recipe files with family and friends, and use their recipe collection to create meal plans.
-    </p>
-    <h3>Roles</h3>
+  <!-- Project Summary -->
+    <section class="summary">
+      <h1>Breadbox</h1>
+      <h2 class="projDescription">Collaborative, cloud-based recipe management and meal planning</h2>
+      <img src="images/LaptopMobileMockup.png" alt="A preview of the design displayed on a laptop and mobile phone">
+      <button type="button" onclick="window.open('https://www.figma.com/proto/4k3GjE8IKSxhTtpBVrPkyL/Breadbox-HiFi-Mockups-V2?node-id=606%3A8&viewport=49%2C210%2C0.03250528499484062&scaling=min-zoom')">View prototype</button>
+      <h2><span class="h2Underline">Summary</span></h2>
+      <p>
+        Breadbox is a cloud storage application that helps users organize their personal recipe collections and store them in a single, safe digital environment. With Breadbox, users can save recipes from multiple sources, share recipe files with family and friends, and use their recipe collection to create meal plans.
+      </p>
+      <h3>Roles</h3>
+        <ul>
+          <li>UX design</li>
+          <li>Branding</li>
+          <li>Visual design</li>
+        </ul>
+        <hr>
+      <h3>Deliverables</h3>
+        <ul>
+          <li>Sketches</li>
+          <li>Wireframes</li>
+          <li>Logo</li>
+          <li>Style guide</li>
+          <li>High-fidelity mockups</li>
+          <li>Clickable prototype</li>
+        </ul>
+        <hr>
+      <h3>Tools</h3>
+        <ul>
+          <li>Figma</li>
+          <li>Sketch</li>
+          <li>Google Forms</li>
+          <li>UsabilityHub</li>
+        </ul>
+    </section>
+
+  <!-- Defining the Project -->
+    <section class="projectDefinition">
+      <div class="bar"><h2 class="blueBar">Defining the Project</h2></div>
+      <h2><span class="h2Underline">The Problem</span></h2>
+      <p>
+        The cloud storage market is already home to well-known products like Google Drive, Dropbox, and Box. Can a new product succeed with the right combination of features to meet the needs of a particular audience? With this question in mind, I decided to focus this project on a specific market segment: recipe storage and management products.
+      </p>
+      <p>
+        These days most of our documents, calendars, and photos are stored digitally. But recipes are often still stored as physical documents in cookbooks, on scraps of paper, or note cards. With the rise of recipe blogs and websites, and the enduring popularity of cookbooks, it can be easy to forget exactly where you found that great banana bread recipe. Users need a digital platform where recipes from many different sources can be stored.
+      </p>
+      <figure>
+        <img src="images/DashboardSolution.png" alt="The Breadbox dashboard, showing a user's meal plan and recently added recipes">
+      </figure>
+      <h2><span class="h2Underline">The Solution</span></h2>
+      <p>
+        In order to succeed in the already saturated cloud storage market, a new product needs to target a specific segment of the market. Breadbox does this and solves the problem of scattered and disorganized recipe storage by providing one centralized, digital storage solution for users’ entire recipe collections, no matter where their recipes are currently stored.
+      </p>
+      <p>
+        With Breadbox, users can upload recipes manually, snap and save a photo of their recipes, or save links to their favorite recipe sites. Users can easily share their recipes with family and friends or create a meal plan using the recipes saved in their collection. Breadbox users will spend less time searching for recipes and have more time to spend enjoying their meals.
+      </p>
+    </section>
+
+  <!-- Competitive Analysis -->
+    <section class="analysis">
+      <div class="bar"><h2 class="blueBar">Research and Discovery</h2></div>
+      <h2><span class="h2Underline">Competitive Analysis</span></h2>
+      <p>
+        To better understand the recipe management and cloud storage market, I conducted a competitive analysis of three existing products: Yummly, BigOven, and Pinterest. All three offer users the ability to save and organize recipes, though they differ in a few significant ways.
+      </p>
+  <div class="competitiveSliderBox">
+    <div class="slider" id="slide-1">
+      <img src="images/Yummly.png" alt="The Yummly logo: the word Yummly, written in orange text">
+      <h3>Strengths</h3>
       <ul>
-        <li>UX design</li>
-        <li>Branding</li>
+        <li>Strong brand identity and appealing image-heavy visual design</li>
+        <li>Advanced search features and ability to sort and filter recipes</li>
+        <li>Sharing recipes and collections via email or text message is simple</li>
+      </ul>
+      <h3>Weaknesses</h3>
+      <ul>
+        <li>Inability to input recipes by typing them in or scanning</li>
+        <li>Recipes that are saved are not editable</li>
+        <li>Limited collaboration features</li>
+      </ul>
+    </div>
+    <div class="slider" id="slide-2">
+      <img src="images/BigOven.png" alt="The BigOven logo: an aerial view of a cooktop followed by the word BigOven in red text">
+      <h3>Strengths</h3>
+      <ul>
+        <li>Easy to save recipes from multiple sources</li>
+        <li>Ability to search for other cooks who use the site by name or username</li>
+        <li>Ability to copy and customize recipes from other users</li>
+      </ul>
+      <h3>Weaknesses</h3>
+      <ul>
+        <li>Limited features available on free version of site and app</li>
+        <li>Meal planning feature and custom organization folders only available to Pro users</li>
         <li>Visual design</li>
       </ul>
-    <h3>Deliverables</h3>
+    </div>
+    <div class="slider" id="slide-3">
+      <img src="images/Pinterest.png" alt="The Pinterest logo: a white 'P' inside a red circle followed by the word Pinterest in red text">
+      <h3>Strengths</h3>
       <ul>
-        <li>Sketches</li>
-        <li>Wireframes</li>
-        <li>Logo</li>
-        <li>Style guide</li>
-        <li>High-fidelity mockups</li>
-        <li>Clickable prototype</li>
+        <li>Ability to save content on boards and to categorize saved content</li>
+        <li>Ability to ‘pin’ content from browser’s bookmark bar or directly from many websites</li>
+        <li>Ability to add collaborators to boards</li>
       </ul>
-    <h3>Tools</h3>
+      <h3>Weaknesses</h3>
       <ul>
-        <li>Figma</li>
-        <li>Sketch</li>
-        <li>Google Forms</li>
-        <li>UsabilityHub</li>
+        <li>Inability to upload personal recipes/content without a corresponding photo</li>
+        <li>Not a dedicated recipe/food management app</li>
+        <li>Too many notifications and emails sent with default settings</li>
       </ul>
+    </div>
+  </div>
+  <section class="sliderButtons">
+      <button type="button" onclick="window.location.href='#slide-1';">1</button>
+      <button type="button" onclick="window.location.href='#slide-2';">2</button>
+      <button type="button" onclick="window.location.href='#slide-3';">3</button>
+    </section>
+      <p class="analysisSumm">
+        Having a clear focus on saving and managing content while incorporating new features that enable collaboration in the kitchen would set a new competitor apart from existing products on the market.
+      </p>
+      <button type="button" onclick="window.open('https://drive.google.com/file/d/1djyGoxq6o3jnB5aAfXgqw9MH67D5qyuE/view?usp=sharing')">View full analysis</button>
+    </section>
 
-<!-- Defining the Project -->
-    <h2 class="blueBar">Defining the Project</h2>
-    <h2>The Problem</h2>
-    <p>
-      The cloud storage market is already home to well-known products like Google Drive, Dropbox, and Box. Can a new product succeed with the right combination of features to meet the needs of a particular audience? With this question in mind, I decided to focus this project on a specific market segment: recipe storage and management products.
-    </p>
-    <p>
-      These days most of our documents, calendars, and photos are stored digitally. But recipes are often still stored as physical documents in cookbooks, on scraps of paper, or note cards. With the rise of recipe blogs and websites, and the enduring popularity of cookbooks, it can be easy to forget exactly where you found that great banana bread recipe. Users need a digital platform where recipes from many different sources can be stored.
-    </p>
-    <figure>
-      <img src="images/DashboardSolution.png" alt="The Breadbox dashboard, showing a user's meal plan and recently added recipes">
-    </figure>
-    <h2>The Solution</h2>
-    <p>
-      In order to succeed in the already saturated cloud storage market, a new product needs to target a specific segment of the market. Breadbox does this and solves the problem of scattered and disorganized recipe storage by providing one centralized, digital storage solution for users’ entire recipe collections, no matter where their recipes are currently stored.
-    </p>
-    <p>
-      With Breadbox, users can upload recipes manually, snap and save a photo of their recipes, or save links to their favorite recipe sites. Users can easily share their recipes with family and friends or create a meal plan using the recipes saved in their collection. Breadbox users will spend less time searching for recipes and have more time to spend enjoying their meals.
-    </p>
+  <!-- User Survey -->
+    <section class="survey">
+      <h2><span class="h2Underline">User Survey</span></h2>
+      <p>
+        With a better understanding of existing recipe management products, I conducted a survey of potential users to gain a better understanding of their cooking habits and recipe management strategies.
+      </p>
+      <h3>Key Findings</h3>
+      <section class="findingsGrid">
+      <figure class="pieChart">
+        <img src="images/PieChart84.png" alt="">
+        <figcaption>84% of respondents use recipes when they cook</figcaption>
+      </figure>
+      <figure class="pieChart">
+        <img src="images/PieChart96.png" alt="">
+        <figcaption>96% of respondents cook at least a few times per week</figcaption>
+      </figure>
+      <figure class="pieChart">
+        <img src="images/PieChart98.png" alt="">
+        <figcaption>98% of respondents plan meals in advance ‘sometimes’ or ‘always'</figcaption>
+      </figure>
+    </section>
+      <p>
+        The bulk of respondents who use recipes currently store them in a notebook or binder (50%) or in cookbooks (52%). Just 22% currently use a digital storage solution such as browser bookmarks or a recipe management app.
+      </p>
+      <p>
+        Initially, I was unsure about whether the MVP should be designed as a responsive website or a mobile app. The user survey revealed that nearly 50% of potential users didn’t have a strong preference, and 65% reported viewing recipes on a computer more often than a phone. With this data in mind, I determined that Breadbox would be most useful as a responsive website.
+      </p>
+      <button type="button" onclick="window.open('https://drive.google.com/file/d/1Sz8AaKDPp-EUICMUniLNrR14HPbKlrdM/view?usp=sharing')">View survey results</button>
+    </section>
 
-<!-- Competitive Analysis -->
-    <h2 class="blueBar">Research and Discovery</h2>
-    <h2>Competitive Analysis</h2>
-    <p>
-      To better understand the recipe management and cloud storage market, I conducted a competitive analysis of three existing products: Yummly, BigOven, and Pinterest. All three offer users the ability to save and organize recipes, though they differ in a few significant ways.
-    </p>
-    <img src="images/Yummly.png" alt="The Yummly logo: the word Yummly, written in orange text">
-    <h3>Strengths</h3>
-    <ul>
-      <li>Strong brand identity and appealing image-heavy visual design</li>
-      <li>Advanced search features and ability to sort and filter recipes</li>
-      <li>Sharing recipes and collections via email or text message is simple</li>
-    </ul>
-    <h3>Weaknesses</h3>
-    <ul>
-      <li>Inability to input recipes by typing them in or scanning</li>
-      <li>Recipes that are saved are not editable</li>
-      <li>Limited collaboration features</li>
-    </ul>
-    <img src="images/BigOven.png" alt="The BigOven logo: an aerial view of a cooktop followed by the word BigOven in red text">
-    <h3>Strengths</h3>
-    <ul>
-      <li>Easy to save recipes from multiple sources</li>
-      <li>Ability to search for other cooks who use the site by name or username</li>
-      <li>Ability to copy and customize recipes from other users</li>
-    </ul>
-    <h3>Weaknesses</h3>
-    <ul>
-      <li>Limited features available on free version of site and app</li>
-      <li>Meal planning feature and custom organization folders only available to Pro users</li>
-      <li>Visual design</li>
-    </ul>
-    <img src="images/Pinterest.png" alt="The Pinterest logo: a white 'P' inside a red circle followed by the word Pinterest in red text">
-    <h3>Strengths</h3>
-    <ul>
-      <li>Ability to save content on boards and to categorize saved content</li>
-      <li>Ability to ‘pin’ content from browser’s bookmark bar or directly from many websites</li>
-      <li>Ability to add collaborators to boards</li>
-    </ul>
-    <h3>Weaknesses</h3>
-    <ul>
-      <li>Inability to upload personal recipes/content without a corresponding photo</li>
-      <li>Not a dedicated recipe/food management app</li>
-      <li>Too many notifications and emails sent with default settings</li>
-    </ul>
-    <p>
-      Having a clear focus on saving and managing content while incorporating new features that enable collaboration in the kitchen would set a new competitor apart from existing products on the market.
-    </p>
-    <button type="button" onclick="window.open('https://drive.google.com/file/d/1djyGoxq6o3jnB5aAfXgqw9MH67D5qyuE/view?usp=sharing')">View full analysis</button>
+  <!-- User Personas -->
+    <section class="personas">
+      <h2><span class="h2Underline">User Personas</span></h2>
+      <p>
+        The information gained from the survey informed the creation of three personas that are representative of potential users’ goals and frustrations with recipe management.
+      </p>
+      <figure>
+        <img src="images/Linda.png" alt="An older woman with short gray hair is looking out of the frame">
+        <figcaption>Linda, age 71</figcaption>
+      </figure>
+      <h3>Goals</h3>
+      <ul>
+        <li>Store personal and family recipes all in one place</li>
+        <li>Share recipes with friends and family members</li>
+        <li>Organize and categorize recipes</li>
+      </ul>
+      <h3>Frustrations</h3>
+      <ul>
+        <li>Collection is unorganized, making recipes hard to find</li>
+        <li>Existing digital storage solutions are too complicated</li>
+        <li>Difficulty sharing recipes with family and friends</li>
+      </ul>
+      <button type="button" onclick="window.open('https://drive.google.com/file/d/1SvHm8A5JRjG01tgk9I3RKE-D1SwzzRQ_/view?usp=sharing')">View all personas</button>
+    </section>
 
-<!-- User Survey -->
-    <h2>User Survey</h2>
-    <p>
-      With a better understanding of existing recipe management products, I conducted a survey of potential users to gain a better understanding of their cooking habits and recipe management strategies.
-    </p>
-    <h3>Key Findings</h3>
-    <figure>
-      <img src="images/PieChart84.png" alt="">
-      <figcaption>84% of respondents use recipes when they cook</figcaption>
-    </figure>
-    <figure>
-      <img src="images/PieChart96.png" alt="">
-      <figcaption>96% of respondents cook at least a few times per week</figcaption>
-    </figure>
-    <figure>
-      <img src="images/PieChart98.png" alt="">
-      <figcaption>98% of respondents plan meals in advance ‘sometimes’ or ‘always'</figcaption>
-    </figure>
-    <p>
-      The bulk of respondents who use recipes currently store them in a notebook or binder (50%) or in cookbooks (52%). Just 22% currently use a digital storage solution such as browser bookmarks or a recipe management app.
-    </p>
-    <p>
-      Initially, I was unsure about whether the MVP should be designed as a responsive website or a mobile app. The user survey revealed that nearly 50% of potential users didn’t have a strong preference, and 65% reported viewing recipes on a computer more often than a phone. With this data in mind, I determined that Breadbox would be most useful as a responsive website.
-    </p>
-    <button type="button" onclick="window.open('https://drive.google.com/file/d/1Sz8AaKDPp-EUICMUniLNrR14HPbKlrdM/view?usp=sharing')">View survey results</button>
+  <!-- User Stories -->
+    <section class="stories">
+      <h2><span class="h2Underline">User Stories</span></h2>
+      <p>
+        Based on the information learned from the research I conducted, I wrote out user stories that represented the features that users would like to have in a recipe management app.
+      </p>
+      <p>
+        I prioritized the stories based on what I had learned in the user survey, and came up with 8 high priority stories that represented the core features of the project’s minimum viable product.
+      </p>
+      <h4>As a user, I want to...</h4>
+      <ul>
+        <li>create a new account</li>
+        <li>log in to my account</li>
+        <li>manually add recipes</li>
+        <li>upload photos or documents of recipes</li>
+        <li>save new recipes I find on the internet</li>
+        <li>create a meal plan</li>
+        <li>share a recipe with someone else</li>
+        <li>organize my recipes in collections or groups</li>
+      </ul>
+      <button type="button" onclick="window.open('https://drive.google.com/file/d/1rnjFpp6ebeTS4z9HztG-K_nB7yPM6HB4/view?usp=sharing')">View all user stories</button>
+    </section>
 
-<!-- User Personas -->
-    <h2>User Personas</h2>
-    <p>
-      The information gained from the survey informed the creation of three personas that are representative of potential users’ goals and frustrations with recipe management.
-    </p>
-    <figure>
-      <img src="images/Linda.png" alt="An older woman with short gray hair is looking out of the frame">
-      <figcaption>Linda, age 71</figcaption>
-    </figure>
-    <h3>Goals</h3>
-    <ul>
-      <li>Store personal and family recipes all in one place</li>
-      <li>Share recipes with friends and family members</li>
-      <li>Organize and categorize recipes</li>
-    </ul>
-    <h3>Frustrations</h3>
-    <ul>
-      <li>Collection is unorganized, making recipes hard to find</li>
-      <li>Existing digital storage solutions are too complicated</li>
-      <li>Difficulty sharing recipes with family and friends</li>
-    </ul>
-    <button type="button" onclick="window.open('https://drive.google.com/file/d/1SvHm8A5JRjG01tgk9I3RKE-D1SwzzRQ_/view?usp=sharing')">View all personas</button>
+  <!-- User Flows -->
+    <section class="flows">
+      <h2><span class="h2Underline">User Flows</span></h2>
+      <p>
+        Next, I sketched user flows to represent all of the high priority user stories and a few of the medium priority stories as well.
+      </p>
+      <figure>
+        <img src="images/OnboardingFlow.png" alt="A flow chart shows different user paths that can be taken from the landing page to the user dashboard">
+        <figcaption>Onboarding flow</figcaption>
+      </figure>
+      <button type="button" onclick="window.open('https://drive.google.com/file/d/1KLlOkb9JmfFArJVGGZsqcDq_HJRTMjjh/view?usp=sharing')">View all user flows</button>
+    </section>
 
-<!-- User Stories -->
-    <h2>User Stories</h2>
-    <p>
-      Based on the information learned from the research I conducted, I wrote out user stories that represented the features that users would like to have in a recipe management app.
-    </p>
-    <p>
-      I prioritized the stories based on what I had learned in the user survey, and came up with 8 high priority stories that represented the core features of the project’s minimum viable product.
-    </p>
-    <h4>As a user, I want to...</h4>
-    <ul>
-      <li>create a new account</li>
-      <li>log in to my account</li>
-      <li>manually add recipes</li>
-      <li>upload photos or documents of recipes</li>
-      <li>save new recipes I find on the internet</li>
-      <li>create a meal plan</li>
-      <li>share a recipe with someone else</li>
-      <li>organize my recipes in collections or groups</li>
-    </ul>
-    <button type="button" onclick="window.open('https://drive.google.com/file/d/1rnjFpp6ebeTS4z9HztG-K_nB7yPM6HB4/view?usp=sharing')">View all user stories</button>
+  <!-- Wireframes -->
+    <section class="wireframes">
+      <div class="bar"><h2 class="blueBar">Ideation and Prototyping</h2></div>
+      <h2><span class="h2Underline">Wireframes</span></h2>
+      <p>
+        I began wireframing by sketching out screens that represented all of the user flows. Many screens had a few different iterations in the initial sketches in order to visual different layouts and placements for the meal plan preview and the main navigation bar.
+      </p>
+      <h3>Initial Sketches</h3>
+      <figure>
+        <img src="images/Sketch1.png" alt="A pen a paper sketch shows a user dashboard with navigation in the top left, a button labeled 'My Recipes' and a box labeled 'Today'">
+        <figcaption>User dashboard sketch V1</figcaption>
+      </figure>
+      <figure>
+        <img src="images/Sketch2.png" alt="A pen and paper sketch shows a user dashboard with a navigation bar at the top, a calendar section labeled 'Meal Plan' and a section labeled 'My Recipes'">
+        <figcaption>User dashboard sketch V2</figcaption>
+      </figure>
+      <figure>
+        <img src="images/Sketch3.png" alt="A pen and paper sketch shows a user dashboard with a navigation bar on the left side, a calendar on the top, and a section labeled 'Recently Added Recipes'">
+        <figcaption>User dashboard sketch V3</figcaption>
+      </figure>
+      <h3>Digital Iterations</h3>
+      <figure>
+        <img src="images/LandingPageWire.png" alt="A wireframe of a web page, with images and text elements represented by gray rectangles" class="digital">
+        <figcaption>Landing page</figcaption>
+      </figure>
+      <figure>
+        <img src="images/DashboardWire.png" alt="A grayscale wireframe of a web page with a left nav bar and two sections: upcoming meal plan and recently added recipes" class="digital">
+        <figcaption>User dashboard</figcaption>
+      </figure>
+      <figure>
+        <img src="images/RecipeDetailWire.png" alt="A grayscale wireframe of a web page with a left nav bar that displays recipe info for potato leek soup" class="digital">
+        <figcaption>Recipe detail page</figcaption>
+      </figure>
+      <button type="button" onclick="window.open('https://www.figma.com/file/DVbVjoSM1AwtlGVYXsxAtWwW/Recipe-App-Wireframes?node-id=0%3A1')">View all wireframes</button>
+    </section>
 
-<!-- User Flows -->
-    <h2>User Flows</h2>
-    <p>
-      Next, I sketched user flows to represent all of the high priority user stories and a few of the medium priority stories as well.
-    </p>
-    <figure>
-      <img src="images/OnboardingFlow.png" alt="A flow chart shows different user paths that can be taken from the landing page to the user dashboard">
-      <figcaption>Onboarding flow</figcaption>
-    </figure>
-    <button type="button" onclick="window.open('https://drive.google.com/file/d/1KLlOkb9JmfFArJVGGZsqcDq_HJRTMjjh/view?usp=sharing')">View all user flows</button>
+  <!-- Usability Testing -->
+    <section class="usabilityTesting">
+      <h2><span class="h2Underline">Usability Testing</span></h2>
+      <p>
+        I conducted three usability tests of three essential flows:
+      </p>
+      <ul>
+        <li>Creating a new account</li>
+        <li>Adding a recipe</li>
+        <li>Adding a saved recipe to the meal plan</li>
+      </ul>
+      <p>
+        All three participants were able to complete the tested tasks. Even so, these usability tests provided useful feedback about aspects of the design that would require more clarity moving forward.
+      </p>
+      <h3>Areas to Improve</h3>
+      <figure>
+        <img src="images/AreasToImprove.png" alt="A wireframe of the user dashboard with orange boxes around design elements that were confusing to test participants">
+        <figcaption>Design elements to improve</figcaption>
+      </figure>
+      <ul>
+        <li>The meal plan cards: the icon placeholders for breakfast, lunch, and dinner were confusing to multiple testers</li>
+        <br>
+        <li>The ‘Settings’ menu: moving it from the lower left hand corner to the upper right might feel more familiar to users</li>
+        <br>
+        <li>The add button in the empty state copy: testers thought it would be clickable</li>
+      </ul>
+      <button type="button" onclick="window.open('https://www.figma.com/proto/DVbVjoSM1AwtlGVYXsxAtWwW/Recipe-App-Wireframes?node-id=19%3A2&viewport=115%2C75%2C0.042711418122053146&scaling=min-zoom')">View lo-fi prototype</button>
+    </section>
 
-<!-- Wireframes -->
-    <h2 class="blueBar">Ideation and Prototyping</h2>
-    <h2>Wireframes</h2>
-    <p>
-      I began wireframing by sketching out screens that represented all of the user flows. Many screens had a few different iterations in the initial sketches in order to visual different layouts and placements for the meal plan preview and the main navigation bar.
-    </p>
-    <h3>Initial Sketches</h3>
-    <figure>
-      <img src="images/Sketch1.png" alt="A pen a paper sketch shows a user dashboard with navigation in the top left, a button labeled 'My Recipes' and a box labeled 'Today'">
-      <figcaption>User dashboard sketch V1</figcaption>
-    </figure>
-    <figure>
-      <img src="images/Sketch2.png" alt="A pen and paper sketch shows a user dashboard with a navigation bar at the top, a calendar section labeled 'Meal Plan' and a section labeled 'My Recipes'">
-      <figcaption>User dashboard sketch V2</figcaption>
-    </figure>
-    <figure>
-      <img src="images/Sketch3.png" alt="A pen and paper sketch shows a user dashboard with a navigation bar on the left side, a calendar on the top, and a section labeled 'Recently Added Recipes'">
-      <figcaption>User dashboard sketch V3</figcaption>
-    </figure>
-    <h3>Digital Iterations</h3>
-    <figure>
-      <img src="images/LandingPageWire.png" alt="A wireframe of a web page, with images and text elements represented by gray rectangles">
-      <figcaption>Landing page</figcaption>
-    </figure>
-    <figure>
-      <img src="images/DashboardWire.png" alt="A grayscale wireframe of a web page with a left nav bar and two sections: upcoming meal plan and recently added recipes">
-      <figcaption>User dashboard</figcaption>
-    </figure>
-    <figure>
-      <img src="images/RecipeDetailWire.png" alt="A grayscale wireframe of a web page with a left nav bar that displays recipe info for potato leek soup">
-      <figcaption>Recipe detail page</figcaption>
-    </figure>
-    <button type="button" onclick="window.open('https://www.figma.com/file/DVbVjoSM1AwtlGVYXsxAtWwW/Recipe-App-Wireframes?node-id=0%3A1')">View all wireframes</button>
+  <!-- Branding -->
+    <section class="branding">
+      <h2><span class="h2Underline">Branding</span></h2>
+      <p>
+        With a structure for the MVP in place, I focused on creating a brand for the product. I decided to call it Breadbox since a breadbox is a common kitchen item that is used for food storage. Since the product is focused on recipe storage and meant to be used in the kitchen, it seemed fitting. ‘Box’ also brings to mind existing cloud storage products.
+      </p>
+      <p>
+        The Breadbox brand is personal, fresh, and fun and conveys feelings of trust, ease, and reliability. Survey results indicated that users are interested in a straightforward product that doesn’t have too many bells and whistles, so this desire for ease and simplicity is reflected in the branding.
+      </p>
+      <figure>
+        <img src="images/Moodboard.png" alt="A moodboard with a lot of orange and green and photos of different food items">
+        <figcaption>Breadbox Moodboard</figcaption>
+      </figure>
+      <h3>Logo</h3>
+      <figure>
+        <img src="images/LogoSketches.png" alt="Pen and paper sketches show several loaves of bread and boxes accompanied by the word 'Breadbox'">
+        <figcaption>Logo sketches</figcaption>
+      </figure>
+      <figure>
+        <img src="images/BreadboxLogoVertical.png" alt="The Breadbox vertical logo: an orange loaf of bread with steam rising from the top sits on top of the word 'Breadbox'" class="logoVertical">
+      </figure>
+      <figure>
+        <img src="images/BreadboxLogoHorizontal.png" alt="The Breadbox horizontal logo: The word 'Breadbox' followed by an orange loaf of bread with steam rising from the top" class="logoHorizontal">
+      </figure>
+      <h3>Color Palette</h3>
+      <p>
+        The primary brand colors are green and orange, colors that naturally bring to mind food items like leafy greens, carrots, oranges, and avocados.
+      </p>
+      <div class="colorPalette">
+        <figure>
+          <img src="images/Green.png" alt="A square colored green" class="square">
+        </figure>
+        <figure>
+          <img src="images/Gray.png" alt="A square colored gray" class="square">
+        </figure>
+        <figure>
+          <img src="images/Orange.png" alt="A square colored orange" class="squareOrange">
+        </figure>
+      </div>
+      <h3>Typography</h3>
+      <p>
+        Both of the font families, Aleo and Cabin, are clean and approachable. Cabin is a sleek sans serif typeface used for the body text that works well with Breadbox’s text-heavy recipe content because it is very legible.
+      </p>
+      <section class="typeExamples">
+      <h4 class="typography">Headline Text</h4>
+      <p class="headlineTextExample">
+        Aleo regular
+        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        <br>abcdefghijklmnopqrstuvwxyz
+        <br>1234567890
+      </p>
+      <p class="headlineTextExampleBold">
+        <b>Aleo bold
+        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        <br>abcdefghijklmnopqrstuvwxyz
+        <br>1234567890</b>
+      </p>
+      <h4 class="typography">Body Text</h4>
+      <p class="bodyTextExample">
+        Cabin regular
+        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        <br>abcdefghijklmnopqrstuvwxyz
+        <br>1234567890
+      </p>
+      <p class="bodyTextExampleBold">
+        <b>Cabin bold
+        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        <br>abcdefghijklmnopqrstuvwxyz
+        <br>1234567890</b>
+      </p>
+    </section>
+      <button type="button" onclick="window.open('https://www.figma.com/proto/6IeNL4fiSKu9z82IHgDwiX/Breadbox-Style-Guide?node-id=60%3A231&viewport=262%2C63%2C0.10532915592193604&scaling=min-zoom')">View full style guide</button>
+    </section>
 
-<!-- Usability Testing -->
-    <h2>Usability Testing</h2>
-    <p>
-      I conducted three usability tests of three essential flows:
-    </p>
-    <ul>
-      <li>Creating a new account</li>
-      <li>Adding a recipe</li>
-      <li>Adding a saved recipe to the meal plan</li>
-    </ul>
-    <p>
-      All three participants were able to complete the tested tasks. Even so, these usability tests provided useful feedback about aspects of the design that would require more clarity moving forward.
-    </p>
-    <h3>Areas to Improve</h3>
-    <figure>
-      <img src="images/AreasToImprove.png" alt="A wireframe of the user dashboard with orange boxes around design elements that were confusing to test participants">
-      <figcaption>Design elements to improve</figcaption>
-    </figure>
-    <ul>
-      <li>The meal plan cards - the icon placeholders for breakfast, lunch, and dinner were confusing to multiple testers</li>
-      <li>The ‘Settings’ menu - moving it from the lower left hand corner to the upper right might feel more familiar to users</li>
-      <li>The add button in the empty state copy - testers thought it would be clickable</li>
-    </ul>
-    <button type="button" onclick="window.open('https://www.figma.com/proto/DVbVjoSM1AwtlGVYXsxAtWwW/Recipe-App-Wireframes?node-id=19%3A2&viewport=115%2C75%2C0.042711418122053146&scaling=min-zoom')">View lo-fi prototype</button>
-
-<!-- Branding -->
-    <h2>Branding</h2>
-    <p>
-      With a structure for the MVP in place, I focused on creating a brand for the product. I decided to call it Breadbox since a breadbox is a common kitchen item that is used for food storage. Since the product is focused on recipe storage and meant to be used in the kitchen, it seemed fitting. ‘Box’ also brings to mind existing cloud storage products.
-    </p>
-    <p>
-      The Breadbox brand is personal, fresh, and fun and conveys feelings of trust, ease, and reliability. Survey results indicated that users are interested in a straightforward product that doesn’t have too many bells and whistles, so this desire for ease and simplicity is reflected in the branding.
-    </p>
-    <figure>
-      <img src="images/Moodboard.png" alt="A moodboard with a lot of orange and green and photos of different food items">
-      <figcaption>Breadbox Moodboard</figcaption>
-    </figure>
-    <h3>Logo</h3>
-    <figure>
-      <img src="images/LogoSketches.png" alt="Pen and paper sketches show several loaves of bread and boxes accompanied by the word 'Breadbox'">
-      <figcaption>Logo sketches</figcaption>
-    </figure>
-    <figure>
-      <img src="images/BreadboxLogoVertical.png" alt="The Breadbox vertical logo: an orange loaf of bread with steam rising from the top sits on top of the word 'Breadbox'">
-    </figure>
-    <figure>
-      <img src="images/BreadboxLogoHorizontal.png" alt="The Breadbox horizontal logo: The word 'Breadbox' followed by an orange loaf of bread with steam rising from the top">
-    </figure>
-    <h3>Color Palette</h3>
-    <p>
-      The primary brand colors are green and orange, colors that naturally bring to mind food items like leafy greens, carrots, oranges, and avocados.
-    </p>
-    <figure>
-      <img src="images/Green.png" alt="A square colored green">
-    </figure>
-    <figure>
-      <img src="images/Gray.png" alt="A square colored gray">
-    </figure>
-    <figure>
-      <img src="images/Orange.png" alt="A square colored orange">
-    </figure>
-    <h3>Typography</h3>
-    <p>
-      Both of the font families, Aleo and Cabin, are clean and approachable. Cabin is a sleek sans serif typeface used for the body text that works well with Breadbox’s text-heavy recipe content because it is very legible.
-    </p>
-    <p class="headlineTextExample">
-      Aleo regular
-      <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      <br>abcdefghijklmnopqrstuvwxyz
-      <br>1234567890
-    </p>
-    <p class="headlineTextExample">
-      <b>Aleo bold
-      <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      <br>abcdefghijklmnopqrstuvwxyz
-      <br>1234567890</b>
-    </p>
-    <p class="bodyTextExample">
-      Cabin regular
-      <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      <br>abcdefghijklmnopqrstuvwxyz
-      <br>1234567890
-    </p>
-    <p class="bodyTextExample">
-      <b>Cabin bold
-      <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      <br>abcdefghijklmnopqrstuvwxyz
-      <br>1234567890</b>
-    </p>
-    <button type="button" onclick="window.open('https://www.figma.com/proto/6IeNL4fiSKu9z82IHgDwiX/Breadbox-Style-Guide?node-id=60%3A231&viewport=262%2C63%2C0.10532915592193604&scaling=min-zoom')">View full style guide</button>
-
-<!-- Hi-fidelity Mockups -->
-    <h2>High-fidelity Mockups</h2>
-    <p>
-      With a product name and clearly defined direction for the brand, I created high-fidelity mockups that took into account my findings from the initial round of usability testing.
-    </p>
-    <figure>
-      <img src="images/LandingPageHifi.png" alt="A full color mockup of a web landing page includes a hero image and CTA buttons labeled 'Join for Free'">
-      <figcaption>Landing page</figcaption>
-    </figure>
-    <figure>
-      <img src="images/DashboardSolution.png" alt="A color mockup of the user dashboard, with a lefthand nav bar and two sections: 'Upcoming meal plan' and 'recently added recipes'">
-      <figcaption>User dashboard: empty state</figcaption>
-    </figure>
-    <figure>
-      <img src="images/AddType.png" alt="A modal window over the dashboard gives users the choice to add a recipe manually, or by uploading a file or saving a URL">
-      <figcaption>Add a new recipe</figcaption>
-    </figure>
-    <figure>
-      <img src="images/AddIngredients.png" alt="A modal window over the dashboard lets users type the ingredients of their recipe">
-      <figcaption>Add a recipe flow: add ingredients</figcaption>
-    </figure>
-    <figure>
-      <img src="images/AddInstructions.png" alt="A modal window over the dashboard prompts users to add a recipe title and instructions">
-      <figcaption>Add a recipe flow: add instructions</figcaption>
-    </figure>
-    <figure>
-      <img src="images/AddTags.png" alt="A modal window over the dashboard prompts users to add tags to their new recipe file">
-      <figcaption>Add a recipe flow: add tags</figcaption>
-    </figure>
-    <figure>
-      <img src="images/ShareRecipe.png" alt="A modal window over the dashboard lets users share their new recipe file via email">
-      <figcaption>Add a recipe flow: share</figcaption>
-    </figure>
-    <figure>
-      <img src="images/RecipeDetail.png" alt="A color mockup of the recipe detail page for Potato Leek Soup">
-      <figcaption>Recipe detail page</figcaption>
-    </figure>
-    <figure>
-      <img src="images/RecipeDetailExpanded.png" alt="A modal window over the recipe detail page shows a larger view of the recipe's instructions">
-      <figcaption>Recipe detail view: expanded</figcaption>
-    </figure>
-    <figure>
-      <img src="images/MobileLandingHifi.png" alt="A mobile phone mockup shows the Breadbox landing page with a 'Join for Free' button visible">
-      <img src="images/MobileDashboardHifi.png" alt="A mobile phone mockup shows the user dashboard which includes an 'Upcoming Meal Plan' and 'Recently Added Recipes'">
+  <!-- Hi-fidelity Mockups -->
+    <section class="hifiMockups">
+      <h2><span class="h2Underline">High-fidelity Mockups</span></h2>
+      <p>
+        With a product name and clearly defined direction for the brand, I created high-fidelity mockups that took into account my findings from the initial round of usability testing.
+      </p>
+      <figure>
+        <img src="images/LandingPageHifi.png" alt="A full color mockup of a web landing page includes a hero image and CTA buttons labeled 'Join for Free'" class="mockup">
+        <figcaption>Landing page</figcaption>
+      </figure>
+      <section class="horizontalMockups">
+        <figure>
+          <img src="images/DashboardSolution.png" alt="A color mockup of the user dashboard, with a lefthand nav bar and two sections: 'Upcoming meal plan' and 'recently added recipes'" class="mockup">
+          <figcaption>User dashboard: empty state</figcaption>
+        </figure>
+        <figure>
+          <img src="images/AddType.png" alt="A modal window over the dashboard gives users the choice to add a recipe manually, or by uploading a file or saving a URL" class="mockup">
+          <figcaption>Add a new recipe</figcaption>
+        </figure>
+        <figure>
+          <img src="images/AddIngredients.png" alt="A modal window over the dashboard lets users type the ingredients of their recipe" class="mockup">
+          <figcaption>Add a recipe flow: add ingredients</figcaption>
+        </figure>
+        <figure>
+          <img src="images/AddInstructions.png" alt="A modal window over the dashboard prompts users to add a recipe title and instructions" class="mockup">
+          <figcaption>Add a recipe flow: add instructions</figcaption>
+        </figure>
+        <figure>
+          <img src="images/AddTags.png" alt="A modal window over the dashboard prompts users to add tags to their new recipe file" class="mockup">
+          <figcaption>Add a recipe flow: add tags</figcaption>
+        </figure>
+        <figure>
+          <img src="images/ShareRecipe.png" alt="A modal window over the dashboard lets users share their new recipe file via email" class="mockup">
+          <figcaption>Add a recipe flow: share</figcaption>
+        </figure>
+        <figure>
+          <img src="images/RecipeDetail.png" alt="A color mockup of the recipe detail page for Potato Leek Soup" class="mockup">
+          <figcaption>Recipe detail page</figcaption>
+        </figure>
+        <figure>
+          <img src="images/RecipeDetailExpanded.png" alt="A modal window over the recipe detail page shows a larger view of the recipe's instructions" class="mockup">
+          <figcaption>Recipe detail view: expanded</figcaption>
+        </figure>
+      </section>
+      <figure class="mobileMockups">
+        <img src="images/MobileLandingHifi.png" alt="A mobile phone mockup shows the Breadbox landing page with a 'Join for Free' button visible" class="imgMobile">
+        <img src="images/MobileDashboardHifi.png" alt="A mobile phone mockup shows the user dashboard which includes an 'Upcoming Meal Plan' and 'Recently Added Recipes'" class="imgMobile">
+      </figure>
       <figcaption>Mobile landing page and user dashboard</figcaption>
-    </figure>
+    </section>
 
-<!-- Preference Testing -->
-    <h2>Preference Testing</h2>
-    <p>
-      I conducted three preference tests on different elements of the visual design where I considered multiple options.
-    </p>
-    <h3>Navigation Bar</h3>
-    <figure>
-      <img src="images/NavBarGray.png" alt="A dark gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'">
-      <figcaption>Option A<br>60%</figcaption>
-    </figure>
-    <figure>
-      <img src="images/NavBarLightGray.png" alt="A light gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'">
-      <figcaption>Option B<br>40%</figcaption>
-    </figure>
-    <h3>Hero Image</h3>
-    <figure>
-      <img src="images/Hero1.png" alt="A hero image of a wooden table with a knife, a slice of bread, and green leaves">
-      <figcaption>Option A<br>13%</figcaption>
-    </figure>
-    <figure>
-      <img src="images/Hero2.png" alt="A hero image of hands holding a rolling pin rolling out dough on a floured surface">
-      <figcaption>Option B<br>13%</figcaption>
-    </figure>
-    <figure>
-      <img src="images/Hero3.png" alt="A hero image of hands kneading dough on a dark brown surface">
-      <figcaption>Option C<br>17%</figcaption>
-    </figure>
-    <figure>
-      <img src="images/Hero4.png" alt="A hero image of several plates of fresh, colorful food on a light blue surface">
-      <figcaption>Option D<br>58%</figcaption>
-    </figure>
-    <h3>Inactive Button Style</h3>
-    <figure>
-      <img src="images/ButtonGreen.png" alt="A dark green button labeled 'Active' above a light green button labeled 'Inactive'">
-      <figcaption>Option A<br>24%</figcaption>
-    </figure>
-    <figure>
-      <img src="images/ButtonGray.png" alt="A dark green button labeled 'Active' above a light gray button labeled 'Inactive'">
-      <figcaption>Option B<br>76%</figcaption>
-    </figure>
-    <p>
-      I updated the hero image and the style of the inactive buttons to reflect user preferences, but the color of the dashboard’s navigation bar remained the same.
-    </p>
+  <!-- Preference Testing -->
+    <section class="prefTesting">
+      <h2><span class="h2Underline">Preference Testing</span></h2>
+      <p>
+        I conducted three preference tests on different elements of the visual design where I considered multiple options.
+      </p>
+      <h3>Navigation Bar</h3>
+      <div class="navBarContainer">
+        <figure>
+          <img src="images/NavBarGray.png" alt="A dark gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'" class="navBar">
+          <figcaption>Option A<br>60%</figcaption>
+        </figure>
+        <figure>
+          <img src="images/NavBarLightGray.png" alt="A light gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'" class="navBar">
+          <figcaption>Option B<br>40%</figcaption>
+        </figure>
+      </div>
+      <h3 class="heroHeader">Hero Image</h3>
+      <div class="heroImageContainer">
+        <figure>
+          <img src="images/Hero1.png" alt="A hero image of a wooden table with a knife, a slice of bread, and green leaves" class="hero">
+          <figcaption>Option A<br>13%</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Hero2.png" alt="A hero image of hands holding a rolling pin rolling out dough on a floured surface" class="hero">
+          <figcaption>Option B<br>13%</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Hero3.png" alt="A hero image of hands kneading dough on a dark brown surface" class="hero">
+          <figcaption>Option C<br>17%</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Hero4.png" alt="A hero image of several plates of fresh, colorful food on a light blue surface" class="hero">
+          <figcaption>Option D<br>58%</figcaption>
+        </figure>
+      </div>
+      <h3>Inactive Button Style</h3>
+      <div class="buttonStyleContainer">
+        <figure>
+          <img src="images/ButtonGreen.png" alt="A dark green button labeled 'Active' above a light green button labeled 'Inactive'" class="buttonStyle">
+          <figcaption>Option A<br>24%</figcaption>
+        </figure>
+        <figure>
+          <img src="images/ButtonGray.png" alt="A dark green button labeled 'Active' above a light gray button labeled 'Inactive'" class="buttonStyle">
+          <figcaption>Option B<br>76%</figcaption>
+        </figure>
+      </div>
+      <p>
+        I updated the hero image and the style of the inactive buttons to reflect user preferences, but the color of the dashboard’s navigation bar remained the same.
+      </p>
+    </section>
 
-<!-- Final Design -->
-    <h2>Final Design</h2>
-    <p>
-      Based on feedback gained from a second round of usability testing and the three preference tests, I created a final prototype of the design.
-    </p>
-    <figure>
-      <img src="images/LaptopMockup.png" alt="A mockup of the user dashboard on a laptop screen">
-    </figure>
-    <button type="button" onclick="window.open('https://www.figma.com/proto/4k3GjE8IKSxhTtpBVrPkyL/Breadbox-HiFi-Mockups-V2?node-id=606%3A8&viewport=188%2C163%2C0.03584447130560875&scaling=min-zoom')">View desktop prototype</button>
-    <button type="button" onclick="window.open('https://www.figma.com/proto/4k3GjE8IKSxhTtpBVrPkyL/Breadbox-HiFi-Mockups-V2?node-id=557%3A1&viewport=299%2C422%2C0.2764054536819458&scaling=min-zoom')">View mobile prototype</button>
+  <!-- Final Design -->
+    <section class="finalDesign">
+      <h2><span class="h2Underline">Final Design</span></h2>
+      <p>
+        Based on feedback gained from a second round of usability testing and the three preference tests, I created a final prototype of the design.
+      </p>
+      <figure>
+        <img src="images/LaptopMockup.png" alt="A mockup of the user dashboard on a laptop screen">
+      </figure>
+      <button type="button" onclick="window.open('https://www.figma.com/proto/4k3GjE8IKSxhTtpBVrPkyL/Breadbox-HiFi-Mockups-V2?node-id=606%3A8&viewport=188%2C163%2C0.03584447130560875&scaling=min-zoom')">View desktop prototype</button>
+      <button type="button" class="mobile" onclick="window.open('https://www.figma.com/proto/4k3GjE8IKSxhTtpBVrPkyL/Breadbox-HiFi-Mockups-V2?node-id=557%3A1&viewport=299%2C422%2C0.2764054536819458&scaling=min-zoom')" >View mobile prototype</button>
+    </section>
 
-<!-- Conclusion -->
-    <h2>Conclusion</h2>
-    <p>
-      The process of designing Breadbox emphasized the importance of creating a solid foundation of research upon which to build a design. During the later stages of this project, I often went back to my notes from the user survey and the user personas to make sure that I was keeping the users at the forefront and not veering off course.
-    </p>
-    <p>
-      In future iterations of this project, I would like to continue to add features to Breadbox that users expressed a desire for that fell outside the scope of the MVP. This could include the ability to create grocery lists in the app, and designing a more robust recipe detail view that would include additional information like personal recipe notes and photographs.
-    </p>
-    <button type="button" onclick="window.location.href = 'index.html'">View more of my work</button>
+  <!-- Conclusion -->
+    <section class="conclusion">
+      <h2><span class="h2Underline">Conclusion</span></h2>
+      <p>
+        The process of designing Breadbox emphasized the importance of creating a solid foundation of research upon which to build a design. During the later stages of this project, I often went back to my notes from the user survey and the user personas to make sure that I was keeping the users at the forefront and not veering off course.
+      </p>
+      <p>
+        In future iterations of this project, I would like to continue to add features to Breadbox that users expressed a desire for that fell outside the scope of the MVP. This could include the ability to create grocery lists in the app, and designing a more robust recipe detail view that would include additional information like personal recipe notes and photographs.
+      </p>
+      <button type="button" onclick="window.location.href = 'index.html#work'">View more of my work</button>
+    </section>
 
-<!-- Footer -->
-    <footer>
-      <h4>Want to connect?</h4>
-      <a href="mailto:elliedeshaies.design@gmail.com">Email Me</a>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/elliedeshaies/" target="_blank"><img src="images/LinkedInIcon.png" alt="LinkedIn icon"></a>
-        </li>
-        <li>
-          <a href="https://github.com/elliedeshaies" target="_blank"><img src="images/GitHubIcon.png" alt="GitHub icon"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/elliedeshaies" target="_blank"><img src="images/TwitterIcon.png" alt="Twitter icon"></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/ellie.deshaies/" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram icon"></a>
-        </li>
-      </ul>
-    </footer>
-
+  <!-- Footer -->
+      <footer>
+        <h4>Want to connect?</h4>
+        <a href="mailto:elliedeshaies.design@gmail.com">Email Me</a>
+        <hr>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/elliedeshaies/" target="_blank"><img src="images/LinkedInIcon.png" alt="LinkedIn icon"></a>
+          </li>
+          <li>
+            <a href="https://github.com/elliedeshaies" target="_blank"><img src="images/GitHubIcon.png" alt="GitHub icon"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/elliedeshaies" target="_blank"><img src="images/TwitterIcon.png" alt="Twitter icon"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ellie.deshaies/" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram icon"></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>

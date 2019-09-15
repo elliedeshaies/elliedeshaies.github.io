@@ -1,55 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Ellie Deshaies | About</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
 
 <!-- Header -->
-    <header>
-        <img src="images/PersonalLogo.png" alt="A yellow bicycle above the name Ellie Deshaies">
-        <nav>
-          <a href="index.html">Work</a>
-          <a href="about.html">About</a>
-        </nav>
-    </header>
+      <header>
+          <a href="index.html"><img src="images/PersonalLogo.png" alt="A yellow bicycle above the name Ellie Deshaies" class="personalLogo"></a>
+          <nav>
+            <a class="navLink" href="index.html#work">Work</a>
+            <a class="navLink" href="about.html">About</a>
+          </nav>
+      </header>
 
-<!-- Bio -->
-    <figure>
-      <img src="images/AboutPhoto.png" alt="A woman, Ellie, stands over a bicycle on the side of a road next to a green field. She is looking back at the camera and smiling.">
-      <figcaption>Hello! It's me.</figcaption>
-    </figure>
-    <p>
-      I grew up in a small town in New England. From painting to piano lessons, creativity was a part of my daily life. This held true until I went to college. A desire to explore the world and understand its people led me to pursue a degree in international relations. I sought out opportunities to work and study around the world--from Belize and Costa Rica to Rwanda and South Africa. After graduation, I spent five years working in the cycling industry.
-    </p>
-    <p>
-      I didn’t realize it at the time, but all of these experiences were important stepping stones on the path to pursuing a career in design. My youthful artistic pursuits helped me develop an appreciation of aesthetically pleasing visuals; studying international relations and traveling abroad deepened my interest in exploring and understanding the diversity of human experience; working in customer-facing roles in the cycling industry gave me an appreciation for the importance of user experience in the success of a business.
-    </p>
-    <p>
-      Ultimately, I decided to become a designer because I am fascinated by people and the way that we interact with the world around us. I strive to design for inclusivity and draw upon a diverse range of human experiences in my work. I believe that design and technology are powerful tools that can be used to create a more equitable world, and I am excited to use my skills to help create positive change.
-    </p>
-    <button type="button" onclick="window.location.href = 'index.html'">View my work</button>
+  <!-- Bio -->
+    <section class="bio">
+      <figure>
+        <img src="images/AboutPhoto.png" alt="A woman, Ellie, stands over a bicycle on the side of a road next to a green field. She is looking back at the camera and smiling.">
+        <figcaption>Hello! It's me.</figcaption>
+      </figure>
+      <p>
+        I grew up in a small town in New England. From painting to piano lessons, creativity was a part of my daily life. This held true until I went to college. A desire to explore the world and understand its people led me to pursue a degree in international relations. I sought out opportunities to work and study around the world--from Belize and Costa Rica to Rwanda and South Africa. After graduation, I spent five years working in the cycling industry.
+      </p>
+      <hr>
+      <p>
+        I didn’t realize it at the time, but all of these experiences were important stepping stones on the path to pursuing a career in design. My youthful artistic pursuits helped me develop an appreciation of aesthetically pleasing visuals; studying international relations and traveling abroad deepened my interest in exploring and understanding the diversity of human experience; working in customer-facing roles in the cycling industry gave me an appreciation for the importance of user experience in the success of a business.
+      </p>
+      <hr>
+      <p>
+        Ultimately, I decided to become a designer because I am fascinated by people and the way that we interact with the world around us. I strive to design for inclusivity and draw upon a diverse range of human experiences in my work. I believe that design and technology are powerful tools that can be used to create a more equitable world, and I am excited to use my skills to help create positive change.
+      </p>
+      <button type="button" onclick="window.location.href = 'index.html#work'">View my work</button>
+    </section>
 
-<!-- Footer -->
-    <footer>
-      <h4>Want to connect?</h4>
-      <a href="mailto:elliedeshaies.design@gmail.com">Email Me</a>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/elliedeshaies/" target="_blank"><img src="images/LinkedInIcon.png" alt="LinkedIn icon"></a>
-        </li>
-        <li>
-          <a href="https://github.com/elliedeshaies" target="_blank"><img src="images/GitHubIcon.png" alt="GitHub icon"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com/elliedeshaies" target="_blank"><img src="images/TwitterIcon.png" alt="Twitter icon"></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/ellie.deshaies/" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram icon"></a>
-        </li>
-      </ul>
-    </footer>
+  <!-- Footer -->
+      <footer>
+        <h4>Want to connect?</h4>
+        <a href="mailto:elliedeshaies.design@gmail.com">Email Me</a>
+        <hr>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/elliedeshaies/" target="_blank"><img src="images/LinkedInIcon.png" alt="LinkedIn icon"></a>
+          </li>
+          <li>
+            <a href="https://github.com/elliedeshaies" target="_blank"><img src="images/GitHubIcon.png" alt="GitHub icon"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/elliedeshaies" target="_blank"><img src="images/TwitterIcon.png" alt="Twitter icon"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/ellie.deshaies/" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram icon"></a>
+          </li>
+        </ul>
+      </footer>
 
+    </div>
   </body>
 </html>
