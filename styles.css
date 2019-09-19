@@ -9,6 +9,7 @@
   margin: 0 auto;
   text-align: center;
   width: 100%;
+  overflow-x: hidden;
 }
 
 html {
@@ -124,7 +125,7 @@ header a {
 
 .personalLogo {
   height: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
   width: auto;
   padding-bottom: 5px;
 }
@@ -898,6 +899,10 @@ img {
 
 button {
   font-size: 1.8rem;
+}
+
+.personalLogo {
+  margin-left: 10%;
 }
 
 /* Footer */
