@@ -17,7 +17,7 @@
 
 <!-- Header -->
       <header>
-          <a href="index.html"><img src="images/PersonalLogo.png" alt="A yellow bicycle above the name Ellie Deshaies" class="personalLogo"></a>
+          <a href="index.html"><img src="images/PersonalLogo2.png" alt="A yellow bicycle above the name Ellie Deshaies" class="personalLogo"></a>
           <nav>
             <a class="navLink" href="index.html#work">Work</a>
             <a class="navLink" href="about.html">About</a>
@@ -34,30 +34,38 @@
       <p>
         Breadbox is a cloud storage application that helps users organize their personal recipe collections and store them in a single, safe digital environment. With Breadbox, users can save recipes from multiple sources, share recipe files with family and friends, and use their recipe collection to create meal plans.
       </p>
-      <h3>Roles</h3>
-        <ul>
-          <li>UX design</li>
-          <li>Branding</li>
-          <li>Visual design</li>
-        </ul>
-        <hr>
-      <h3>Deliverables</h3>
-        <ul>
-          <li>Sketches</li>
-          <li>Wireframes</li>
-          <li>Logo</li>
-          <li>Style guide</li>
-          <li>High-fidelity mockups</li>
-          <li>Clickable prototype</li>
-        </ul>
-        <hr>
-      <h3>Tools</h3>
-        <ul>
-          <li>Figma</li>
-          <li>Sketch</li>
-          <li>Google Forms</li>
-          <li>UsabilityHub</li>
-        </ul>
+      <section class="columns">
+        <div>
+          <h3 class="roles">Roles</h3>
+            <ul>
+              <li>UX design</li>
+              <li>Branding</li>
+              <li>Visual design</li>
+            </ul>
+        </div>
+          <hr>
+        <div>
+          <h3 class="deliverables">Deliverables</h3>
+            <ul>
+              <li>Sketches</li>
+              <li>Wireframes</li>
+              <li>Logo</li>
+              <li>Style guide</li>
+              <li>High-fidelity mockups</li>
+              <li>Clickable prototype</li>
+            </ul>
+        </div>
+            <hr>
+        <div>
+        <h3>Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Sketch</li>
+            <li>Google Forms</li>
+            <li>UsabilityHub</li>
+          </ul>
+        </div>
+        </section>
     </section>
 
   <!-- Defining the Project -->
@@ -141,6 +149,66 @@
       <button type="button" onclick="window.location.href='#slide-2';">2</button>
       <button type="button" onclick="window.location.href='#slide-3';">3</button>
     </section>
+
+    <!-- Competitive Analysis Grid -->
+    <div class="borders">
+      <div class="competitiveGrid">
+          <div>
+            <img src="images/Yummly.png" alt="The Yummly logo: the word Yummly, written in orange text">
+            <h3>Strengths</h3>
+            <ul>
+              <li>Strong brand identity and appealing image-heavy visual design</li>
+              <li>Advanced search features and ability to sort and filter recipes</li>
+              <li>Sharing recipes and collections via email or text message is simple</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Weaknesses</h3>
+            <ul>
+              <li>Inability to input recipes by typing them in or scanning</li>
+              <li>Recipes that are saved are not editable</li>
+              <li>Limited collaboration features</li>
+            </ul>
+          </div>
+          <div>
+            <img src="images/BigOven.png" alt="The BigOven logo: an aerial view of a cooktop followed by the word BigOven in red text">
+            <h3>Strengths</h3>
+            <ul>
+              <li>Easy to save recipes from multiple sources</li>
+              <li>Ability to search for other cooks who use the site by name or username</li>
+              <li>Ability to copy and customize recipes from other users</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Weaknesses</h3>
+            <ul>
+              <li>Limited features available on free version of site and app</li>
+              <li>Meal planning feature and custom organization folders only available to Pro users</li>
+              <li>Visual design</li>
+            </ul>
+          </div>
+
+          <div>
+            <img src="images/Pinterest.png" alt="The Pinterest logo: a white 'P' inside a red circle followed by the word Pinterest in red text">
+            <h3>Strengths</h3>
+            <ul>
+              <li>Ability to save content on boards and to categorize saved content</li>
+              <li>Ability to ‘pin’ content from browser’s bookmark bar or directly from many websites</li>
+              <li>Ability to add collaborators to boards</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Weaknesses</h3>
+            <ul>
+              <li>Inability to upload personal recipes/content without a corresponding photo</li>
+              <li>Not a dedicated recipe/food management app</li>
+              <li>Too many notifications and emails sent with default settings</li>
+            </ul>
+          </div>
+
+      </div>
+    </div>
+
       <p class="analysisSumm">
         Having a clear focus on saving and managing content while incorporating new features that enable collaboration in the kitchen would set a new competitor apart from existing products on the market.
       </p>
@@ -183,22 +251,30 @@
       <p>
         The information gained from the survey informed the creation of three personas that are representative of potential users’ goals and frustrations with recipe management.
       </p>
-      <figure>
-        <img src="images/Linda.png" alt="An older woman with short gray hair is looking out of the frame">
-        <figcaption>Linda, age 71</figcaption>
-      </figure>
-      <h3>Goals</h3>
-      <ul>
-        <li>Store personal and family recipes all in one place</li>
-        <li>Share recipes with friends and family members</li>
-        <li>Organize and categorize recipes</li>
-      </ul>
-      <h3>Frustrations</h3>
-      <ul>
-        <li>Collection is unorganized, making recipes hard to find</li>
-        <li>Existing digital storage solutions are too complicated</li>
-        <li>Difficulty sharing recipes with family and friends</li>
-      </ul>
+      <div class="personaWithImg">
+        <figure>
+          <img src="images/Linda.png" alt="An older woman with short gray hair is looking out of the frame" class="linda">
+          <figcaption>Linda, age 71</figcaption>
+        </figure>
+        <div class="persona">
+        <div class="goals">
+          <h3>Goals</h3>
+          <ul>
+            <li>Store personal and family recipes all in one place</li>
+            <li>Share recipes with friends and family members</li>
+            <li>Organize and categorize recipes</li>
+          </ul>
+        </div>
+        <div class="frustrations">
+        <h3>Frustrations</h3>
+        <ul>
+          <li>Collection is unorganized, making recipes hard to find</li>
+          <li>Existing digital storage solutions are too complicated</li>
+          <li>Difficulty sharing recipes with family and friends</li>
+        </ul>
+        </div>
+        </div>
+      </div>
       <button type="button" onclick="window.open('https://drive.google.com/file/d/1SvHm8A5JRjG01tgk9I3RKE-D1SwzzRQ_/view?usp=sharing')">View all personas</button>
     </section>
 
@@ -213,14 +289,18 @@
       </p>
       <h4>As a user, I want to...</h4>
       <ul>
-        <li>create a new account</li>
-        <li>log in to my account</li>
-        <li>manually add recipes</li>
-        <li>upload photos or documents of recipes</li>
-        <li>save new recipes I find on the internet</li>
-        <li>create a meal plan</li>
-        <li>share a recipe with someone else</li>
-        <li>organize my recipes in collections or groups</li>
+        <div>
+          <li>create a new account</li>
+          <li>log in to my account</li>
+          <li>manually add recipes</li>
+          <li>upload photos or documents of recipes</li>
+        </div>
+        <div>
+          <li>save new recipes I find on the internet</li>
+          <li>create a meal plan</li>
+          <li>share a recipe with someone else</li>
+          <li>organize my recipes in collections or groups</li>
+        </div>
       </ul>
       <button type="button" onclick="window.open('https://drive.google.com/file/d/1rnjFpp6ebeTS4z9HztG-K_nB7yPM6HB4/view?usp=sharing')">View all user stories</button>
     </section>
@@ -243,41 +323,45 @@
       <div class="bar"><h2 class="blueBar">Ideation and Prototyping</h2></div>
       <h2><span class="h2Underline">Wireframes</span></h2>
       <p>
-        I began wireframing by sketching out screens that represented all of the user flows. Many screens had a few different iterations in the initial sketches in order to visual different layouts and placements for the meal plan preview and the main navigation bar.
+        I began wireframing by sketching out screens that represented all of the user flows. Many screens had a few different iterations in the initial sketches in order to visualize different layouts and placements for the meal plan preview and the main navigation bar.
       </p>
       <h3>Initial Sketches</h3>
-      <figure>
+      <figure class="sketch1">
         <img src="images/Sketch1.png" alt="A pen a paper sketch shows a user dashboard with navigation in the top left, a button labeled 'My Recipes' and a box labeled 'Today'">
         <figcaption>User dashboard sketch V1</figcaption>
       </figure>
-      <figure>
+      <figure class="sketch2">
         <img src="images/Sketch2.png" alt="A pen and paper sketch shows a user dashboard with a navigation bar at the top, a calendar section labeled 'Meal Plan' and a section labeled 'My Recipes'">
         <figcaption>User dashboard sketch V2</figcaption>
       </figure>
-      <figure>
+      <figure class="sketch3">
         <img src="images/Sketch3.png" alt="A pen and paper sketch shows a user dashboard with a navigation bar on the left side, a calendar on the top, and a section labeled 'Recently Added Recipes'">
         <figcaption>User dashboard sketch V3</figcaption>
       </figure>
       <h3>Digital Iterations</h3>
-      <figure>
-        <img src="images/LandingPageWire.png" alt="A wireframe of a web page, with images and text elements represented by gray rectangles" class="digital">
-        <figcaption>Landing page</figcaption>
-      </figure>
-      <figure>
-        <img src="images/DashboardWire.png" alt="A grayscale wireframe of a web page with a left nav bar and two sections: upcoming meal plan and recently added recipes" class="digital">
-        <figcaption>User dashboard</figcaption>
-      </figure>
-      <figure>
-        <img src="images/RecipeDetailWire.png" alt="A grayscale wireframe of a web page with a left nav bar that displays recipe info for potato leek soup" class="digital">
-        <figcaption>Recipe detail page</figcaption>
-      </figure>
+      <div class="digitalWireframes">
+        <figure>
+          <img src="images/LandingPageWire.png" alt="A wireframe of a web page, with images and text elements represented by gray rectangles" class="digital">
+          <figcaption>Landing page</figcaption>
+        </figure>
+        <div class="horizontalWires">
+          <figure>
+            <img src="images/DashboardWire.png" alt="A grayscale wireframe of a web page with a left nav bar and two sections: upcoming meal plan and recently added recipes" class="digital">
+            <figcaption>User dashboard</figcaption>
+          </figure>
+          <figure>
+            <img src="images/RecipeDetailWire.png" alt="A grayscale wireframe of a web page with a left nav bar that displays recipe info for potato leek soup" class="digital">
+            <figcaption>Recipe detail page</figcaption>
+          </figure>
+        </div>
+      </div>
       <button type="button" onclick="window.open('https://www.figma.com/file/DVbVjoSM1AwtlGVYXsxAtWwW/Recipe-App-Wireframes?node-id=0%3A1')">View all wireframes</button>
     </section>
 
   <!-- Usability Testing -->
     <section class="usabilityTesting">
       <h2><span class="h2Underline">Usability Testing</span></h2>
-      <p>
+      <p class="short">
         I conducted three usability tests of three essential flows:
       </p>
       <ul>
@@ -288,45 +372,55 @@
       <p>
         All three participants were able to complete the tested tasks. Even so, these usability tests provided useful feedback about aspects of the design that would require more clarity moving forward.
       </p>
-      <h3>Areas to Improve</h3>
-      <figure>
-        <img src="images/AreasToImprove.png" alt="A wireframe of the user dashboard with orange boxes around design elements that were confusing to test participants">
-        <figcaption>Design elements to improve</figcaption>
-      </figure>
-      <ul>
-        <li>The meal plan cards: the icon placeholders for breakfast, lunch, and dinner were confusing to multiple testers</li>
-        <br>
-        <li>The ‘Settings’ menu: moving it from the lower left hand corner to the upper right might feel more familiar to users</li>
-        <br>
-        <li>The add button in the empty state copy: testers thought it would be clickable</li>
-      </ul>
+        <h3>Areas to Improve</h3>
+        <div class="areasToImproveContainer">
+            <figure>
+              <img src="images/AreasToImprove.png" alt="A wireframe of the user dashboard with orange boxes around design elements that were confusing to test participants">
+              <figcaption>Design elements to improve</figcaption>
+            </figure>
+          <ul>
+            <li>The meal plan cards: the icon placeholders for breakfast, lunch, and dinner were confusing to multiple testers</li>
+            <br>
+            <li>The ‘Settings’ menu: moving it from the lower left hand corner to the upper right might feel more familiar to users</li>
+            <br>
+            <li>The add button in the empty state copy: testers thought it would be clickable</li>
+          </ul>
+        </div>
       <button type="button" onclick="window.open('https://www.figma.com/proto/DVbVjoSM1AwtlGVYXsxAtWwW/Recipe-App-Wireframes?node-id=19%3A2&viewport=115%2C75%2C0.042711418122053146&scaling=min-zoom')">View lo-fi prototype</button>
     </section>
 
   <!-- Branding -->
     <section class="branding">
       <h2><span class="h2Underline">Branding</span></h2>
-      <p>
-        With a structure for the MVP in place, I focused on creating a brand for the product. I decided to call it Breadbox since a breadbox is a common kitchen item that is used for food storage. Since the product is focused on recipe storage and meant to be used in the kitchen, it seemed fitting. ‘Box’ also brings to mind existing cloud storage products.
-      </p>
-      <p>
-        The Breadbox brand is personal, fresh, and fun and conveys feelings of trust, ease, and reliability. Survey results indicated that users are interested in a straightforward product that doesn’t have too many bells and whistles, so this desire for ease and simplicity is reflected in the branding.
-      </p>
-      <figure>
-        <img src="images/Moodboard.png" alt="A moodboard with a lot of orange and green and photos of different food items">
-        <figcaption>Breadbox Moodboard</figcaption>
-      </figure>
+      <div class="moodboardContainer">
+        <div class="brandingText">
+          <p>
+            With a structure for the MVP in place, I focused on creating a brand for the product. I decided to call it Breadbox since a breadbox is a common kitchen item that is used for food storage. Since the product is focused on recipe storage and meant to be used in the kitchen, it seemed fitting. ‘Box’ also brings to mind existing cloud storage products.
+          </p>
+          <p>
+            The Breadbox brand is personal, fresh, and fun and conveys feelings of trust, ease, and reliability. Survey results indicated that users are interested in a straightforward product that doesn’t have too many bells and whistles, so this desire for ease and simplicity is reflected in the branding.
+          </p>
+        </div>
+        <figure>
+          <img src="images/Moodboard.png" alt="A moodboard with a lot of orange and green and photos of different food items" class="moodSketches">
+          <figcaption>Breadbox Moodboard</figcaption>
+        </figure>
+      </div>
       <h3>Logo</h3>
-      <figure>
-        <img src="images/LogoSketches.png" alt="Pen and paper sketches show several loaves of bread and boxes accompanied by the word 'Breadbox'">
-        <figcaption>Logo sketches</figcaption>
-      </figure>
-      <figure>
-        <img src="images/BreadboxLogoVertical.png" alt="The Breadbox vertical logo: an orange loaf of bread with steam rising from the top sits on top of the word 'Breadbox'" class="logoVertical">
-      </figure>
-      <figure>
-        <img src="images/BreadboxLogoHorizontal.png" alt="The Breadbox horizontal logo: The word 'Breadbox' followed by an orange loaf of bread with steam rising from the top" class="logoHorizontal">
-      </figure>
+      <div class="logoContainer">
+        <figure>
+          <img src="images/LogoSketches.png" alt="Pen and paper sketches show several loaves of bread and boxes accompanied by the word 'Breadbox'" class="moodSketches">
+          <figcaption>Logo sketches</figcaption>
+        </figure>
+        <div class="logos">
+          <figure>
+            <img src="images/BreadboxLogoVertical.png" alt="The Breadbox vertical logo: an orange loaf of bread with steam rising from the top sits on top of the word 'Breadbox'" class="logoVertical">
+          </figure>
+          <figure>
+            <img src="images/BreadboxLogoHorizontal.png" alt="The Breadbox horizontal logo: The word 'Breadbox' followed by an orange loaf of bread with steam rising from the top" class="logoHorizontal">
+          </figure>
+        </div>
+      </div>
       <h3>Color Palette</h3>
       <p>
         The primary brand colors are green and orange, colors that naturally bring to mind food items like leafy greens, carrots, oranges, and avocados.
@@ -347,32 +441,36 @@
         Both of the font families, Aleo and Cabin, are clean and approachable. Cabin is a sleek sans serif typeface used for the body text that works well with Breadbox’s text-heavy recipe content because it is very legible.
       </p>
       <section class="typeExamples">
-      <h4 class="typography">Headline Text</h4>
-      <p class="headlineTextExample">
-        Aleo regular
-        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        <br>abcdefghijklmnopqrstuvwxyz
-        <br>1234567890
-      </p>
-      <p class="headlineTextExampleBold">
-        <b>Aleo bold
-        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        <br>abcdefghijklmnopqrstuvwxyz
-        <br>1234567890</b>
-      </p>
-      <h4 class="typography">Body Text</h4>
-      <p class="bodyTextExample">
-        Cabin regular
-        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        <br>abcdefghijklmnopqrstuvwxyz
-        <br>1234567890
-      </p>
-      <p class="bodyTextExampleBold">
-        <b>Cabin bold
-        <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        <br>abcdefghijklmnopqrstuvwxyz
-        <br>1234567890</b>
-      </p>
+      <div class="headline">
+        <h4 class="typography">Headline Text</h4>
+        <p class="headlineTextExample">
+          Aleo regular
+          <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br>abcdefghijklmnopqrstuvwxyz
+          <br>1234567890
+        </p>
+        <p class="headlineTextExampleBold">
+          <b>Aleo bold
+          <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br>abcdefghijklmnopqrstuvwxyz
+          <br>1234567890</b>
+        </p>
+      </div>
+      <div class="body">
+        <h4 class="typography">Body Text</h4>
+        <p class="bodyTextExample">
+          Cabin regular
+          <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br>abcdefghijklmnopqrstuvwxyz
+          <br>1234567890
+        </p>
+        <p class="bodyTextExampleBold">
+          <b>Cabin bold
+          <br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+          <br>abcdefghijklmnopqrstuvwxyz
+          <br>1234567890</b>
+        </p>
+      </div>
     </section>
       <button type="button" onclick="window.open('https://www.figma.com/proto/6IeNL4fiSKu9z82IHgDwiX/Breadbox-Style-Guide?node-id=60%3A231&viewport=262%2C63%2C0.10532915592193604&scaling=min-zoom')">View full style guide</button>
     </section>
@@ -384,7 +482,7 @@
         With a product name and clearly defined direction for the brand, I created high-fidelity mockups that took into account my findings from the initial round of usability testing.
       </p>
       <figure>
-        <img src="images/LandingPageHifi.png" alt="A full color mockup of a web landing page includes a hero image and CTA buttons labeled 'Join for Free'" class="mockup">
+        <img src="images/LandingPageHifi.png" alt="A full color mockup of a web landing page includes a hero image and CTA buttons labeled 'Join for Free'" class="landingPage">
         <figcaption>Landing page</figcaption>
       </figure>
       <section class="horizontalMockups">
@@ -434,16 +532,32 @@
       <p>
         I conducted three preference tests on different elements of the visual design where I considered multiple options.
       </p>
-      <h3>Navigation Bar</h3>
-      <div class="navBarContainer">
-        <figure>
-          <img src="images/NavBarGray.png" alt="A dark gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'" class="navBar">
-          <figcaption>Option A<br>60%</figcaption>
-        </figure>
-        <figure>
-          <img src="images/NavBarLightGray.png" alt="A light gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'" class="navBar">
-          <figcaption>Option B<br>40%</figcaption>
-        </figure>
+      <div class="navAndButtons">
+        <div class="navWithHeading"><h3>Navigation Bar</h3>
+          <div class="navBarContainer">
+            <figure>
+              <img src="images/NavBarGray.png" alt="A dark gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'" class="navBar">
+              <figcaption>Option A<br>60%</figcaption>
+            </figure>
+            <figure>
+              <img src="images/NavBarLightGray.png" alt="A light gray navigation bar with the Breadbox logo, a search bar, and two buttons: 'All Recipes' and 'Meal Plan'" class="navBar">
+              <figcaption>Option B<br>40%</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="buttonWithHeading">
+          <div><h3>Inactive Button Style</h3></div>
+          <div class="buttonStyleContainer">
+            <figure>
+              <img src="images/ButtonGreen.png" alt="A dark green button labeled 'Active' above a light green button labeled 'Inactive'" class="buttonStyle">
+              <figcaption>Option A<br>24%</figcaption>
+            </figure>
+            <figure>
+              <img src="images/ButtonGray.png" alt="A dark green button labeled 'Active' above a light gray button labeled 'Inactive'" class="buttonStyle">
+              <figcaption>Option B<br>76%</figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
       <h3 class="heroHeader">Hero Image</h3>
       <div class="heroImageContainer">
@@ -464,17 +578,7 @@
           <figcaption>Option D<br>58%</figcaption>
         </figure>
       </div>
-      <h3>Inactive Button Style</h3>
-      <div class="buttonStyleContainer">
-        <figure>
-          <img src="images/ButtonGreen.png" alt="A dark green button labeled 'Active' above a light green button labeled 'Inactive'" class="buttonStyle">
-          <figcaption>Option A<br>24%</figcaption>
-        </figure>
-        <figure>
-          <img src="images/ButtonGray.png" alt="A dark green button labeled 'Active' above a light gray button labeled 'Inactive'" class="buttonStyle">
-          <figcaption>Option B<br>76%</figcaption>
-        </figure>
-      </div>
+
       <p>
         I updated the hero image and the style of the inactive buttons to reflect user preferences, but the color of the dashboard’s navigation bar remained the same.
       </p>
@@ -508,7 +612,7 @@
   <!-- Footer -->
       <footer>
         <h4>Want to connect?</h4>
-        <a href="mailto:elliedeshaies.design@gmail.com">Email Me</a>
+        <a href="mailto:elliedeshaies.design@gmail.com">Email me</a>
         <hr>
         <ul>
           <li>
