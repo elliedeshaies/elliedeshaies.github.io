@@ -1,3 +1,3 @@
-# Portfolio
+# UX Design Portfolio
 
-A showcase of my design work.
+My portfolio provides examples of my work in UX design, visual design, and frontend development. 
