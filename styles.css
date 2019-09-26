@@ -194,7 +194,7 @@ footer hr {
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: 1rem;
   color: #F4F7FB;
   text-align: center;
   margin: auto;
@@ -214,6 +214,11 @@ footer p {
   margin-bottom: 50px;
   margin-left: 2.0rem;
   text-align: left;
+}
+
+.name {
+  border-bottom: 3px solid #F3C915;
+  padding-bottom: 4px;
 }
 
 .intro h5 {

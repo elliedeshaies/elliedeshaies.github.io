@@ -38,9 +38,9 @@
   <div class="homepageContent">
   <div class="content">
     <section class="intro">
-      <h1 id="intro" data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">Hi, I'm Ellie.</h1>
-      <h5 class="introP" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800" data-aos-once="true">I'm a product designer based in Denver.</h5>
-      <p class="introP" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1200" data-aos-once="true">I design user-centered digital experiences that prioritize diversity and inclusion.</p>
+      <h1 id="intro">Hi, I'm <span class="name">Ellie</span>.</h1>
+      <h5 class="introP">I'm a product designer based in Denver.</h5>
+      <p class="introP">I design user-centered digital experiences that prioritize diversity and inclusion.</p>
       <h2>Recent Work</h2>
       <span class="downArrow"></span>
     </section>
@@ -83,7 +83,7 @@
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init(
+    AOS.init({ disable: 'mobile' }
     );
   </script>
   </body>
