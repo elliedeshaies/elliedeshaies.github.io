@@ -14,6 +14,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -157,7 +158,7 @@ nav {
 
 footer {
   background-color: #7A99B8;
-  height: 165px;
+  height: 190px;
   padding-top: 25px;
   position: sticky;
   width: 100%;
@@ -168,7 +169,7 @@ footer h4 {
   color: #F4F7FB;
   font-size: 1.6rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 footer a {
@@ -190,6 +191,13 @@ footer hr {
   margin-inline-start: 30%;
   margin-inline-end: 30%;
   margin-top: 15px;
+}
+
+footer p {
+  font-size: .8rem;
+  color: #F4F7FB;
+  text-align: center;
+  margin: auto;
 }
 
 /*--- index.html styles ---*/
@@ -214,6 +222,7 @@ footer hr {
   font-size: 20px;
   margin-bottom: 40px;
   margin-left: 20px;
+  margin-right: 20px;
   text-align: left;
 }
 
@@ -311,6 +320,8 @@ footer hr {
 .projDescription {
   margin-bottom: 3.0rem;
   margin-top: 3.0rem;
+  margin-left: 2.0rem;
+  margin-right: 2.0rem;
 }
 
 .summary img {
@@ -540,6 +551,7 @@ footer hr {
   list-style-position: inside;
   list-style-type: disc;
   margin-left: 2.0rem;
+  margin-right: 2.0rem;
   text-align: left;
 }
 
@@ -617,6 +629,8 @@ footer hr {
   margin-top: 4.0rem;
 }
 
+
+
 /*--- Usability testing styles ---*/
 
 .usabilityTesting h2 {
@@ -653,6 +667,7 @@ footer hr {
 
 .usabilityTesting li {
   margin-left: 2.0rem;
+  margin-right: 2.0rem;
 }
 
 .usabilityTesting h3 {
@@ -937,7 +952,7 @@ button {
 /* Footer */
 
 footer {
-  height: 280px;
+  height: 310px;
   padding-top: 50px;
 }
 
@@ -957,6 +972,11 @@ footer hr {
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 40px;
+}
+
+footer p {
+  font-size: 1.2rem;
+  padding-top: 20px;
 }
 
 /* index.html */

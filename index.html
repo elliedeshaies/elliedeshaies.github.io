@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="container">
@@ -37,15 +38,15 @@
   <div class="homepageContent">
   <div class="content">
     <section class="intro">
-      <h1 id="intro">Hi, I'm Ellie.</h1>
-      <h5 class="introP">I'm a product designer based in Denver.</h5>
-      <p class="introP">I design user-centered digital experiences that draw upon a diverse range of human experiences.</p>
+      <h1 id="intro" data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">Hi, I'm Ellie.</h1>
+      <h5 class="introP" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800" data-aos-once="true">I'm a product designer based in Denver.</h5>
+      <p class="introP" data-aos="fade-up" data-aos-duration="800" data-aos-delay="1200" data-aos-once="true">I design user-centered digital experiences that prioritize diversity and inclusion.</p>
       <h2>Recent Work</h2>
       <span class="downArrow"></span>
     </section>
 
   <!-- Case Study Preview -->
-    <section class="breadboxPreview" id="work">
+    <section class="breadboxPreview" id="work" data-aos="flip-up" data-aos-duration="800">
       <img src="images/LaptopMobileMockup.png" alt="A preview of the design displayed on a laptop and mobile phone">
       <div class="previewTextContent">
         <h2>Breadbox</h2>
@@ -60,7 +61,7 @@
   <!-- Footer -->
       <footer>
         <h4 id="footerCTA">Want to connect?</h4>
-        <a href="mailto:elliedeshaies.design@gmail.com" class="email">Email me</a>
+        <a href="mailto:elliedeshaies.design@gmail.com" class="email">hello@elliedeshaies.com</a>
         <hr>
         <ul class=socialList>
           <li>
@@ -76,8 +77,14 @@
             <a href="https://www.instagram.com/ellie.deshaies/" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram icon" class="socialIcon"></a>
           </li>
         </ul>
+        <p class="copyright">Designed and developed by Ellie Deshaies.</p>
       </footer>
 
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+    );
+  </script>
   </body>
 </html>

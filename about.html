@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="container">
@@ -38,19 +39,19 @@
   <!-- Bio -->
     <div class="content">
     <section class="bio">
-      <figure>
+      <figure data-aos="fade-in">
         <img src="images/BioPhoto.png" alt="A woman, Ellie, stands over a bicycle on the side of a road next to a green field. She is looking back at the camera and smiling.">
         <figcaption>Hello! It's me.</figcaption>
       </figure>
-      <p>
+      <p data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-out-back">
         I grew up in a small town in New England. From painting to piano lessons, creativity was a part of my daily life. This held true until I went to college. A desire to explore the world and understand its people led me to pursue a degree in international relations. I sought out opportunities to work and study around the world--from Belize and Costa Rica to Rwanda and South Africa. After graduation, I spent five years working in the cycling industry.
       </p>
       <hr>
-      <p>
+      <p data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-out-back">
         I didn’t realize it at the time, but all of these experiences were important stepping stones on the path to pursuing a career in design. My youthful artistic pursuits helped me develop an appreciation for aesthetically pleasing visuals; studying international relations and traveling abroad deepened my interest in exploring and understanding the diversity of human experience; working in customer-facing roles in the cycling industry strengthened my communication skills and gave me an appreciation for the importance of user experience in the success of a business.
       </p>
       <hr>
-      <p>
+      <p data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-out-back">
         Ultimately, I decided to become a designer because I am fascinated by people and the way that we interact with the world around us. I strive to design for inclusivity and draw upon a broad range of human experiences in my work. I believe that design and technology are powerful tools that can be used to create a more equitable world, and I am excited to use my skills to help create positive change.
       </p>
       <button type="button" onclick="window.location.href = 'index.html#work'">View my work</button>
@@ -60,7 +61,7 @@
   <!-- Footer -->
       <footer>
         <h4>Want to connect?</h4>
-        <a href="mailto:elliedeshaies.design@gmail.com">Email me</a>
+        <a href="mailto:elliedeshaies.design@gmail.com">hello@elliedeshaies.com</a>
         <hr>
         <ul>
           <li>
@@ -76,8 +77,14 @@
             <a href="https://www.instagram.com/ellie.deshaies/" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram icon"></a>
           </li>
         </ul>
+        <p class="copyright">Designed and developed by Ellie Deshaies.</p>
       </footer>
 
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+    );
+  </script>
   </body>
 </html>
