@@ -39,13 +39,13 @@ h3 {
 
 h4 {
   color: #434547;
-  font-family: 'Nunito';
+  font-family: 'Nunito Sans';
   font-size: 1.6rem;
 }
 
 p {
   color: #434547;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 135%;
   margin-left: 20px;
@@ -55,7 +55,7 @@ p {
 
 ul {
   color: #434547;
-  font-family: 'Nunito';
+  font-family: 'Nunito Sans';
   font-size: 1.6rem;
 }
 
@@ -74,7 +74,7 @@ button {
   color: #F4F5F5;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.6rem;
   font-style: normal;
   font-weight: normal;
@@ -99,7 +99,7 @@ button:hover {
 
 figure {
   color: #434547;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.3rem;
 }
 
@@ -174,7 +174,7 @@ footer h4 {
 
 footer a {
   color: #F4F7FB;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.4rem;
   text-decoration: none;
 }
@@ -200,6 +200,14 @@ footer p {
   margin: auto;
 }
 
+.socialList {
+  align-items: center;
+}
+
+.email {
+  text-align: center;
+}
+
 /*--- index.html styles ---*/
 
 .intro {
@@ -208,6 +216,7 @@ footer p {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -30px;
 }
 
 .intro h1 {
@@ -223,7 +232,7 @@ footer p {
 
 .intro h5 {
   color: #434547;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
   margin-bottom: 40px;
   margin-left: 20px;
@@ -250,23 +259,53 @@ footer p {
     -webkit-transform: rotate(45deg);
 }
 
-.breadboxPreview {
+.metraPreview {
   background-color: #F4F7FB;
   height: auto;
-  width: 100%;
+  width: auto;
   padding-bottom: 4.0rem;
 }
 
-.breadboxPreview img {
+.metraPreview img {
   padding: 6.0rem 4.0rem 4.0rem;
 }
 
-.breadboxPreview h2 {
+.metraPreview h2 {
   margin-bottom: 30px;
   margin-top: 10px;
 }
 
-.breadboxPreview p {
+.metraPreview p {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.caseStudyPreview {
+  display: none;
+}
+
+.breadboxPreview {
+  display: none;
+}
+
+.verticalPreview {
+  background-color: #FFFFFF;
+  height: auto;
+  width: auto;
+  padding-bottom: 4.0rem;
+}
+
+.verticalPreview img {
+  padding: 6.0rem 4.0rem 4.0rem;
+}
+
+.verticalPreview h2 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.verticalPreview p {
   font-size: 1.6rem;
   margin-bottom: 30px;
   text-align: center;
@@ -274,6 +313,12 @@ footer p {
 
 .previewTextContent {
   vertical-align: middle;
+  padding-top: 1.0rem;
+}
+
+.previewTextContentMetra {
+  vertical-align: middle;
+  padding-top: 4.0rem;
 }
 
 .homepageContent {
@@ -290,7 +335,7 @@ footer p {
 
 .bio figcaption {
   color: #434547;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.3rem;
   margin-bottom: 2.0rem;
   margin-top: -1.5rem;
@@ -414,6 +459,10 @@ footer p {
   display: none;
 }
 
+.competitiveGridMetra {
+  display: none;
+}
+
 .competitiveSliderBox {
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
@@ -469,7 +518,7 @@ footer p {
 
 .survey p {
   margin-bottom: 4.0rem;
-  margin-top: 4.0rem;
+  margin-top: 6.0rem;
 }
 
 .survey figcaption {
@@ -508,9 +557,9 @@ footer p {
 }
 
 .personas img {
-  height: 200px;
   margin-top: 2.0rem;
-  width: auto;
+  max-width: 300px;
+  height: auto;
 }
 
 .personas figcaption {
@@ -531,7 +580,7 @@ footer p {
 }
 
 .personas button {
-  margin-top: 2.0rem;
+  margin-top: 5.0rem;
 }
 
 /*--- User stories styles ---*/
@@ -910,6 +959,79 @@ footer p {
   margin-bottom: 7.0rem;
 }
 
+/*--- project2.html styles ---*/
+
+.projectDefinition2 h2 {
+  margin-bottom: 6.0rem;
+}
+
+.projectDefinition2 p {
+  margin-bottom: 3.0rem;
+}
+
+.projectDefinition2 img {
+  margin-bottom: 4.0rem;
+  max-width: 80%;
+}
+
+/* Persona styles */
+
+.personaWithImg img {
+
+}
+
+/* Wireframe styles */
+
+.wireframes img.digital {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Usability testing styles */
+
+.usabilityTesting img.heatMap {
+  max-width: 60%;
+}
+
+/* Branding styles */
+
+.metraMoodboard p {
+  margin-top: 0;
+}
+
+.mindMap {
+  width: 600px;
+  height: auto;
+}
+
+.metraLogo {
+  width: 250px;
+  height: auto;
+}
+
+.typeExamples p.metraBodyTextExample {
+  font-family: 'Lato', sans-serif;
+}
+
+.typeExamples p.metraHeadlineTextExample {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+/* Hifi mockup styles */
+
+.metraMockups {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    margin-top: 30px;
+}
+
+.metraMockups img {
+  max-width: 50%;
+}
+
 /*--- Media queries ---*/
 
 @media screen and (min-width: 768px) {
@@ -1000,6 +1122,21 @@ footer p {
 
 .intro p {
   margin-left: 50px;
+}
+
+.metraPreview img {
+  width: 70%;
+  margin: 0 15% 0;
+}
+
+.metraPreview p {
+  font-size: 1.8rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.metraPreview {
+  padding-bottom: 7.0rem;
 }
 
 .breadboxPreview img {
@@ -1143,6 +1280,13 @@ footer p {
   padding-left: 50px;
 }
 
+.personaCards {
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 .personas button {
   margin-top: 6.0rem;
 }
@@ -1172,8 +1316,8 @@ footer p {
 /* User flows */
 
 .flows img {
-  width: 60%;
-  max-width: 600px;
+  width: auto;
+  max-height: 500px;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -1367,7 +1511,8 @@ footer p {
 
 .navBarContainer {
   width: 100%;
-  padding-right: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .buttonStyleContainer {
@@ -1417,6 +1562,44 @@ footer p {
   font-size: 2.4rem;
 }
 
+.metraPreview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.metraPreview img {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.metraPreview p {
+  width: 375px;
+}
+
+.breadboxPreview {
+  background-color: #FFFFFF;
+  height: auto;
+  width: auto;
+  padding-bottom: 4.0rem;
+}
+
+.breadboxPreview img {
+  padding: 6.0rem 4.0rem 4.0rem;
+}
+
+.breadboxPreview h2 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.breadboxPreview p {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .breadboxPreview {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1431,6 +1614,10 @@ footer p {
 
 .breadboxPreview p {
   width: 375px;
+}
+
+.verticalPreview {
+  display: none;
 }
 
 /* Project Summary*/
@@ -1490,7 +1677,7 @@ footer p {
 /* User survey */
 
 .findingsGrid {
-  max-width: 1500px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -1587,6 +1774,93 @@ footer p {
 .heroImageContainer {
   max-width: 1500px;
   margin: auto;
+}
+
+/*---PROJECT2 STYLES---*/
+
+.metraMockups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 700px;
+  height: auto;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.summary img {
+  max-width: 1000px;
+  height: auto;
+}
+
+.columns {
+  max-width: 1000px;
+}
+
+.projectDefinition2 img {
+  max-width: 800px;
+  height: auto;
+  margin-top: 5.0rem;
+  padding-bottom: 3.0rem;
+}
+
+.competitiveGridMetra {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 0 40px 0;
+    width: 100%;
+    grid-gap: 1px;
+}
+
+.competitiveGridMetra img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 2.0rem;
+}
+
+.competitiveGridMetra div{
+    background-color: white;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 10% 5% 10% 5%;
+}
+
+.competitiveGridMetra li {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 125%;
+  width: 300px;
+}
+
+.competitiveGridMetra h2 {
+  margin-bottom: 2.0rem;
+}
+
+.metraSketches {
+  display: grid;
+  grid-auto-flow: column;
+  margin-right: 20%;
+  margin-left: 20%;
+  align-items: baseline;
+}
+
+.usabilityTesting img.heatMap {
+    max-height: 500px;
+    width: auto;
+}
+
+}
+
+@media screen and (min-width: 1500px) {
+
+.caseStudyPreview {
+  border: 1px solid #F3C915;
+  margin-inline-start: 10%;
+  margin-inline-end: 10%;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 }
