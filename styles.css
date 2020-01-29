@@ -267,7 +267,7 @@ footer p {
 }
 
 .metraPreview img {
-  padding: 6.0rem 4.0rem 4.0rem;
+  padding: 6.0rem 4.0rem 2.0rem;
 }
 
 .metraPreview h2 {
@@ -316,9 +316,19 @@ footer p {
   padding-top: 1.0rem;
 }
 
+.previewTextContent p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .previewTextContentMetra {
   vertical-align: middle;
-  padding-top: 4.0rem;
+  padding-top: 1.0rem;
+}
+
+.previewTextContentMetra p {
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .homepageContent {
@@ -1125,8 +1135,12 @@ footer p {
 }
 
 .metraPreview img {
-  width: 70%;
-  margin: 0 15% 0;
+  width: 80%;
+  margin: auto;
+}
+
+.metraPreview h2 {
+  margin-top:
 }
 
 .metraPreview p {
@@ -1139,8 +1153,18 @@ footer p {
   padding-bottom: 7.0rem;
 }
 
+.previewTextContentMetra {
+  vertical-align: middle;
+  padding-top: 4.0rem;
+}
+
+.previewTextContentMetra p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .breadboxPreview img {
-  width: 70%;
+  max-width: 80%;
   margin: 0 15% 0;
 }
 
@@ -1152,6 +1176,11 @@ footer p {
 
 .breadboxPreview {
   padding-bottom: 7.0rem;
+}
+
+.previewTextContent p {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* about.html */
@@ -1574,10 +1603,6 @@ footer p {
   padding: 0;
 }
 
-.metraPreview p {
-  width: 375px;
-}
-
 .breadboxPreview {
   background-color: #FFFFFF;
   height: auto;
@@ -1610,10 +1635,6 @@ footer p {
 .breadboxPreview img {
   margin: 0 auto;
   padding: 0;
-}
-
-.breadboxPreview p {
-  width: 375px;
 }
 
 .verticalPreview {
@@ -1855,12 +1876,8 @@ footer p {
 
 @media screen and (min-width: 1500px) {
 
-.caseStudyPreview {
-  border: 1px solid #F3C915;
-  margin-inline-start: 10%;
-  margin-inline-end: 10%;
-  margin-bottom: 60px;
-  margin-top: 20px;
+  .metraPreview {
+    background-color: #FFFFFF;
 }
 
 }
